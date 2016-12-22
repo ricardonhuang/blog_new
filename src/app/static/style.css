@@ -182,3 +182,11 @@ p {
 .hover:hover {
   color: #bfbfbf;
 }
+
+.register{
+  height:25px;
+  line-height:25px;
+  border:1px solid #FF0099;
+  background-color:#FFCCFF;
+ }
+}

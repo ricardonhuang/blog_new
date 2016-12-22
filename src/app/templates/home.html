@@ -1,4 +1,6 @@
+
 <html data-wf-site="54e79404cbacd7593aeb936e" data-wf-page="54e79404cbacd7593aeb936f">
+
 <head>
     <meta charset="utf-8">
     <title>Angular Navbar</title>
@@ -13,7 +15,12 @@
 <body><a class="logo w-inline-block" href="#"><h5>Angular</h5></a>
   <div class="navbar">
     <div class="stick-out-bit">
-      <div class="contents"><a class="nav-link" href="/">home</a><a class="nav-link" href="#">about</a><a class="nav-link" href="#">work</a><a class="nav-link" href="#">blog</a><a class="nav-link" href="#">contact</a>
+      <div class="contents">
+        <a class="nav-link" href="/">home</a>
+        <a class="nav-link" href="#">about</a>
+        <a class="nav-link" href="#">work</a>
+        <a class="nav-link" href="{{url_for('main.blog_index')}}">blog</a>
+        <a class="nav-link" href="#">contact</a>
         <div class="language-options">
           <h3><span class="selected">EN</span> | <span class="hover">DE</span></h3>
         </div>
@@ -22,7 +29,7 @@
   </div>
   <div class="hero" data-ix="navbar-expand">
     <h1>we do web</h1>
-    <h2>Click anywhere</h2>
+    <h2>Click anywhere</h2>    
   </div>
   <script type="text/javascript" src="static/jquery-3.1.1.min.js"></script>
   <script type="text/javascript" src="static/11.js"></script>

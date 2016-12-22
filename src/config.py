@@ -17,6 +17,7 @@ class Config:
     FLASKY_POSTS_PER_PAGE = 8
     FLASKY_FOLLOWERS_PER_PAGE = 10
     FLASKY_COMMENTS_PER_PAGE = 8
+    UPLOAD_FOLDER = 'E:\\workspace\\blog_new\\src\\app\\uploads\\'
     @staticmethod
     def init_app(app):
         pass
